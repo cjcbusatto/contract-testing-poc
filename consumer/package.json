@@ -1,0 +1,22 @@
+{
+  "name": "consumer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@pact-foundation/pact": "^9.11.1",
+    "axios": "^0.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^26.4.1",
+    "pact": "^4.3.2"
+  }
+}

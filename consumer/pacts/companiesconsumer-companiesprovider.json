@@ -1,0 +1,33 @@
+{
+  "consumer": {
+    "name": "CompaniesConsumer"
+  },
+  "provider": {
+    "name": "CompaniesProvider"
+  },
+  "interactions": [
+    {
+      "description": "a request for all companies",
+      "providerState": "is not authenticated",
+      "request": {
+        "method": "GET",
+        "path": "/companies"
+      },
+      "response": {
+        "status": 200,
+        "headers": {},
+        "body": [
+          {
+            "id": 1,
+            "companies": "Github"
+          }
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "pactSpecification": {
+      "version": "2.0.0"
+    }
+  }
+}
